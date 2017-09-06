@@ -20,8 +20,6 @@ public class ComplementaryPairs {
         /**
          * Adds the input elements to a HashSet. Eliminates duplicates.
          *
-         * Time Complexity - O(n)
-         * Memory Complexity - O(n)
          */
         for (int i : input) {
             numberSet.add(i);
@@ -30,9 +28,6 @@ public class ComplementaryPairs {
         /**
          * Checks if the difference of k and a value is there in the above set.
          * If found prints and removes.
-         *
-         * Time Complexity - O(1)
-         * Memory Complexity - O(n)
          *
          */
         for (int i : input) {
